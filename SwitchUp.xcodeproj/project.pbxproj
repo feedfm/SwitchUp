@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969E4F43690AC898250D6B3A /* Pods_SwitchUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F0EA8AECADE58DEDBCD02B /* Pods_SwitchUp.framework */; };
+		A9040DD81F7434B20046364A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9040DD71F7434B20046364A /* main.m */; };
+		A9040DDB1F7434B20046364A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9040DDA1F7434B20046364A /* AppDelegate.m */; };
+		A9040DDE1F7434B20046364A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9040DDD1F7434B20046364A /* ViewController.m */; };
+		A9040DE11F7434B20046364A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9040DDF1F7434B20046364A /* Main.storyboard */; };
+		A9040DE31F7434B20046364A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9040DE21F7434B20046364A /* Assets.xcassets */; };
+		A9040DE61F7434B20046364A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9040DE41F7434B20046364A /* LaunchScreen.storyboard */; };
+		A93A43F41F7CB20C00980405 /* erinworkout.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A93A43F31F7CB20700980405 /* erinworkout.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40F0EA8AECADE58DEDBCD02B /* Pods_SwitchUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FA0733DFF7A7C8C9A3EDF5 /* Pods-SwitchUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchUp/Pods-SwitchUp.debug.xcconfig"; sourceTree = "<group>"; };
+		A9040DD31F7434B20046364A /* SwitchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9040DD71F7434B20046364A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9040DD91F7434B20046364A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9040DDA1F7434B20046364A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9040DDC1F7434B20046364A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9040DDD1F7434B20046364A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9040DE01F7434B20046364A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9040DE21F7434B20046364A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9040DE51F7434B20046364A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9040DE71F7434B20046364A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93A43F31F7CB20700980405 /* erinworkout.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = erinworkout.m4a; sourceTree = "<group>"; };
+		AE9352E8FC546D271A1D965F /* Pods-SwitchUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchUp/Pods-SwitchUp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9040DD01F7434B20046364A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969E4F43690AC898250D6B3A /* Pods_SwitchUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8662DF1EA22AE91DD29A6ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA0733DFF7A7C8C9A3EDF5 /* Pods-SwitchUp.debug.xcconfig */,
+				AE9352E8FC546D271A1D965F /* Pods-SwitchUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87B6CAE7BEEAC9339275DAE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F0EA8AECADE58DEDBCD02B /* Pods_SwitchUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9040DCA1F7434B20046364A = {
+			isa = PBXGroup;
+			children = (
+				A9040DD51F7434B20046364A /* SwitchUp */,
+				A9040DD41F7434B20046364A /* Products */,
+				8662DF1EA22AE91DD29A6ADE /* Pods */,
+				87B6CAE7BEEAC9339275DAE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9040DD41F7434B20046364A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9040DD31F7434B20046364A /* SwitchUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9040DD51F7434B20046364A /* SwitchUp */ = {
+			isa = PBXGroup;
+			children = (
+				A9040DD91F7434B20046364A /* AppDelegate.h */,
+				A9040DDA1F7434B20046364A /* AppDelegate.m */,
+				A9040DDC1F7434B20046364A /* ViewController.h */,
+				A9040DDD1F7434B20046364A /* ViewController.m */,
+				A93A43F31F7CB20700980405 /* erinworkout.m4a */,
+				A9040DDF1F7434B20046364A /* Main.storyboard */,
+				A9040DE21F7434B20046364A /* Assets.xcassets */,
+				A9040DE41F7434B20046364A /* LaunchScreen.storyboard */,
+				A9040DE71F7434B20046364A /* Info.plist */,
+				A9040DD61F7434B20046364A /* Supporting Files */,
+			);
+			path = SwitchUp;
+			sourceTree = "<group>";
+		};
+		A9040DD61F7434B20046364A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9040DD71F7434B20046364A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9040DD21F7434B20046364A /* SwitchUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9040DEA1F7434B20046364A /* Build configuration list for PBXNativeTarget "SwitchUp" */;
+			buildPhases = (
+				33D5CCC129959C62B9778304 /* [CP] Check Pods Manifest.lock */,
+				A9040DCF1F7434B20046364A /* Sources */,
+				A9040DD01F7434B20046364A /* Frameworks */,
+				A9040DD11F7434B20046364A /* Resources */,
+				CAC9DBEF4991F43E58B11C1E /* [CP] Embed Pods Frameworks */,
+				9E3EF3D5DD482B875A664FD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchUp;
+			productName = SwitchUp;
+			productReference = A9040DD31F7434B20046364A /* SwitchUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9040DCB1F7434B20046364A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Feed Media";
+				TargetAttributes = {
+					A9040DD21F7434B20046364A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PAGEPFEF9A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9040DCE1F7434B20046364A /* Build configuration list for PBXProject "SwitchUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9040DCA1F7434B20046364A;
+			productRefGroup = A9040DD41F7434B20046364A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9040DD21F7434B20046364A /* SwitchUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9040DD11F7434B20046364A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9040DE61F7434B20046364A /* LaunchScreen.storyboard in Resources */,
+				A9040DE31F7434B20046364A /* Assets.xcassets in Resources */,
+				A93A43F41F7CB20C00980405 /* erinworkout.m4a in Resources */,
+				A9040DE11F7434B20046364A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33D5CCC129959C62B9778304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3EF3D5DD482B875A664FD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchUp/Pods-SwitchUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC9DBEF4991F43E58B11C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchUp/Pods-SwitchUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9040DCF1F7434B20046364A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9040DDE1F7434B20046364A /* ViewController.m in Sources */,
+				A9040DDB1F7434B20046364A /* AppDelegate.m in Sources */,
+				A9040DD81F7434B20046364A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9040DDF1F7434B20046364A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9040DE01F7434B20046364A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9040DE41F7434B20046364A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9040DE51F7434B20046364A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9040DE81F7434B20046364A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9040DE91F7434B20046364A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9040DEB1F7434B20046364A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FA0733DFF7A7C8C9A3EDF5 /* Pods-SwitchUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAGEPFEF9A;
+				INFOPLIST_FILE = SwitchUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.feed.SwitchUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9040DEC1F7434B20046364A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9352E8FC546D271A1D965F /* Pods-SwitchUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAGEPFEF9A;
+				INFOPLIST_FILE = SwitchUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.feed.SwitchUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9040DCE1F7434B20046364A /* Build configuration list for PBXProject "SwitchUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9040DE81F7434B20046364A /* Debug */,
+				A9040DE91F7434B20046364A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9040DEA1F7434B20046364A /* Build configuration list for PBXNativeTarget "SwitchUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9040DEB1F7434B20046364A /* Debug */,
+				A9040DEC1F7434B20046364A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9040DCB1F7434B20046364A /* Project object */;
+}
